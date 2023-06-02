@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1100px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: 200px;
+    }
+
+    .left-head {
+        margin-left: 0px;
+    }
+
+    .circles {
+        height: 200px;
+    }
+
+    .left-head h1 {
+        font-size: 3rem;
+    }
+
+    .left-head h2 {
+        font-size: 1rem;
+
+    }
+
+    .right-head {
+        display: none;
+        margin: 0px auto;
+    }
+
+    .main-nav ul {
+        gap: 25px;
+    }
+
+    .main-nav ul li a {
+        font-size: 1rem;
+    }
+
+    .main-card-section {
+        width: 300px;
+    }
+
+    .main-card-section h1 {
+        font-size: 1.7rem;
+    }
+
+    .download-link {
+        font-size: 1rem;
+    }
+
+    .footer {
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
